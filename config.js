@@ -40,7 +40,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
-global.userImages = process.env.USER_IMAGES || "";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/65b65ca62bb0b79a07d3a.jpg";
 global.waPresence = process.env.WAPRESENCE || "unavailable";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -78,7 +78,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
-  AUTOREACTION: process.env.AUTOREACTION || process.env.AUTOREACTION || "true",
+  AUTOREACTION: process.env.AUTOREACTION || process.env.AUTOREACTION || "false",
   LANG: (process.env.THEME || "WASI").toUpperCase(),
 };
 global.rank = "updated";
